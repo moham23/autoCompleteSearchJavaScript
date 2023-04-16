@@ -1,0 +1,30 @@
+html, body{
+    background: white;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bodyContainer{
+    width: 600px;
+    margin: 50px auto;
+}
+
+.show .faqContent{
+    display: block !important;
+    transition: 1s;
+}
+
+.faqWrapper .faqTitle{
+    color: white;
+    background: #f48f8f;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.faqWrapper .faqContent{
+    display: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
